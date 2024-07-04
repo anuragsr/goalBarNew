@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Goal Bar
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+</head>
+<body>
+
+	<div>
+		<button id="play">Play</button>
+		<button id="pause">Pause</button>
+		<button id="reset">Reset</button><!-- 
+		<button id="fade">Fade</button> -->
+	</div>
+	<h1>Progressive Goal Bar Version 1</h1>
+	<div class="anim-container">
+		<canvas id="canvas" width=800 height=200></canvas>
+		<div class="goal-container">
+			<div class="goal-bar">
+		        <div class="goal-ind">        	
+		        </div>
+			</div>
+			<canvas id="canvas2" width=800 height=55></canvas>
+		</div>
+	</div><br/><br/>
+	<div class="stats">
+	    <span id="score">0</span> %
+	    <div class="progress-bar">
+	        <div class="progress-ind"></div>			
+	    </div>
+	</div>
+</body>
+</html>
